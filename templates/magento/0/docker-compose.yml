@@ -1,0 +1,9 @@
+magento:
+  image: registry.databasemart.net:443/magento2
+  mem_limit: 1024m
+  memswap_limit: 1024m
+  mem_reservation: 512m
+  cpu_count: 2
+  cpus: 1.5
+  ports:
+    - ${public_port}:80
